@@ -1,0 +1,47 @@
+{
+  "intent_patterns": {
+    "itinerary": 4,
+    "cultural": 2,
+    "general": 1,
+    "place_info": 1,
+    "food": 1,
+    "cost": 1
+  },
+  "entity_patterns": {
+    "places": {
+      "har_ki_pauri": 1
+    },
+    "time": {
+      "one_day": 3,
+      "three_day": 2,
+      "two_day": 1
+    },
+    "numbers": {
+      "3": 2,
+      "1": 1
+    },
+    "hospitals": {},
+    "hotels": {},
+    "akhadas": {},
+    "travel_agents": {},
+    "sweet_shops": {},
+    "gem_shops": {},
+    "book_shops": {},
+    "quiet_places": {},
+    "cultural_places": {},
+    "more_temples": {}
+  },
+  "common_queries": {
+    "create itinerary for one day": 2,
+    "1 day itnery": 1,
+    "tell me about har ki pauri": 1,
+    "what is the cultural significance of haridwar?": 1,
+    "prepare itinerary for 3 days include some animal m": 1,
+    "haridwar cultural context": 1,
+    "i want to explore by feeling every bit of it": 1,
+    "'create itinerary for 3 days": 1,
+    "create itinerary for two days": 1
+  },
+  "user_preferences": {},
+  "response_effectiveness": {}
+}

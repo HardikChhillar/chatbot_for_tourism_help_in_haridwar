@@ -1,0 +1,128 @@
+{
+  "experience_types": {
+    "spiritual": {
+      "name": "Spiritual & Religious Experience",
+      "keywords": ["spiritual","religious","pilgrimage","temple","prayer","meditation","yoga","ashram","peace","soul","divine"],
+      "focus": ["temples","ashrams","meditation","yoga","aarti","rituals"],
+      "pace": "slow",
+      "accommodation_preference": ["ashram","dharamshala"],
+      "food_preference": "satvik_vegetarian"
+    },
+    "cultural": {
+      "name": "Cultural & Heritage Experience",
+      "keywords": ["culture","heritage","history","tradition","learn","museum","architecture","ancient"],
+      "focus": ["cultural_sites","museums","traditional_markets","local_experiences"],
+      "pace": "moderate",
+      "accommodation_preference": ["hotel","heritage"],
+      "food_preference": "local_cuisine"
+    },
+    "adventure": {
+      "name": "Adventure & Nature Experience",
+      "keywords": ["adventure","nature","wildlife","trekking","hiking","outdoor","rafting","camping"],
+      "focus": ["rajaji_park","trekking","nature_walks","river_activities"],
+      "pace": "active",
+      "accommodation_preference": ["hotel","resort"],
+      "food_preference": "varied"
+    },
+    "relaxation": {
+      "name": "Relaxation & Wellness",
+      "keywords": ["relax","peaceful","quiet","wellness","spa","calm","tranquil","rejuvenate"],
+      "focus": ["quiet_places","ashrams","yoga","meditation","spa"],
+      "pace": "very_slow",
+      "food_preference": "healthy_vegetarian"
+    },
+    "comprehensive": {
+      "name": "Complete Haridwar Experience",
+      "keywords": ["everything","complete","all","comprehensive","full","explore"],
+      "focus": ["temples","cultural_sites","food","shopping","nature"],
+      "pace": "moderate",
+      "accommodation_preference": ["hotel"],
+      "food_preference": "varied"
+    },
+    "family": {
+      "name": "Family-Friendly Experience",
+      "keywords": ["family","kids","children","family-friendly"],
+      "focus": ["easy_temples","cable_car","park","family_restaurants"],
+      "pace": "slow_to_moderate",
+      "accommodation_preference": ["hotel"],
+      "food_preference": "family_friendly"
+    },
+    "ashram_immersion": {
+      "name": "Ashram Immersion (Long Stay)",
+      "keywords": ["ashram","immersion","long stay","seva","satsang","yoga","meditation","routine","program"],
+      "focus": ["ashram_routine","seva","satsang","yoga","scripture_study"],
+      "pace": "slow"
+    }
+  },
+
+  "daily_routines": {
+    "spiritual": { "wake_up": "05:00", "sleep_time": "21:00" },
+    "cultural": { "wake_up": "07:00", "sleep_time": "22:00" },
+    "adventure": { "wake_up": "06:00", "sleep_time": "22:00" },
+    "relaxation": { "wake_up": "07:00", "sleep_time": "21:30" },
+    "ashram_immersion": { "wake_up": "05:00", "sleep_time": "21:00" }
+  },
+
+  "street_food_stops": {
+    "hoshiyar_puri": { "name": "Hoshiyar Puri", "location": "Near Har Ki Pauri", "items": ["Puri Sabzi","Kachori","Jalebi"], "best_time": "Breakfast", "price": "₹80-150", "famous_for": "Classic Haridwar breakfast" },
+    "puri_wala_junction": { "name": "Puri Wala Junction", "location": "Near Har Ki Pauri", "items": ["Puri Sabzi","Kachori","Samosa"], "best_time": "Breakfast", "price": "₹30-50", "famous_for": "Fresh hot puris" },
+    "jalebi_point": { "name": "Famous Jalebi Point", "location": "Main Bazaar", "items": ["Jalebi","Rabri","Lassi"], "best_time": "Anytime", "price": "₹40-80", "famous_for": "Crispy jalebis" },
+    "chaat_corner_station": { "name": "Ganga Chaat Corner", "location": "Near Railway Station", "items": ["Aloo Tikki","Papdi Chaat","Pani Puri"], "best_time": "Evening", "price": "₹30-70", "famous_for": "Spicy chaat" },
+    "lassi_shop_kankhal": { "name": "Traditional Lassi Shop", "location": "Kankhal Road", "items": ["Lassi","Buttermilk","Thandai"], "best_time": "Afternoon", "price": "₹40-80", "famous_for": "Thick creamy lassi" },
+    "pakora_upper_road": { "name": "Upper Road Pakora Stalls", "location": "Upper Road", "items": ["Mix Pakora","Mirchi Pakora"], "best_time": "Afternoon", "price": "₹40-70", "famous_for": "Crispy pakora by the lane" },
+    "chaat_kankhal": { "name": "Kankhal Chaat", "location": "Kankhal", "items": ["Papdi Chaat","Pani Puri"], "best_time": "Late Morning", "price": "₹40-70", "famous_for": "Local flavor" }
+  },
+
+  "accommodation_detailed": {
+    "budget_ashrams": [
+      { "name": "Shri Ganga Bhawan Ashram", "price": "₹200-500/night", "meals_included": true, "amenities": ["Basic room","Shared bathroom","Yoga hall","Meditation room"], "rules": ["Vegetarian only","No alcohol","Early morning aarti"], "best_for": "Spiritual seekers" },
+      { "name": "Maa Anandamayi Ashram (Kankhal)", "price": "₹300-800/night", "meals_included": true, "amenities": ["Meditation hall","Library"], "rules": ["Silence in halls","Dress modestly"], "best_for": "Long-stay immersion" }
+    ],
+    "mid_range_hotels": [
+      { "name": "Hotel Ganga Azure", "price": "₹2500-4000/night", "meals_included": false, "amenities": ["AC","WiFi","Restaurant","River view"], "best_for": "Families" },
+      { "name": "Hotel Har Ki Pauri View", "price": "₹3000-4500/night", "meals_included": false, "amenities": ["AC","WiFi","Elevator"], "best_for": "Central location" }
+    ],
+    "luxury_options": [
+      { "name": "The Haveli Hari Ganga", "price": "₹8000-15000/night", "meals_included": "Breakfast", "amenities": ["Spa","Fine dining","Concierge","River deck"], "best_for": "Luxury travelers" }
+    ]
+  },
+
+  "local_experiences": {
+    "morning_rituals": {
+      "holy_dip": { "name": "Traditional Holy Dip in Ganga", "location": "Har Ki Pauri", "time": "5:00-7:00 AM", "duration": "30 minutes", "cost": "Free (locker ₹20)", "what_to_expect": "Morning prayers and holy dip." },
+      "sunrise_yoga": { "name": "Riverside Sunrise Yoga", "location": "Various ashrams", "time": "6:00-7:00 AM", "duration": "1 hour", "cost": "₹200-500", "what_to_expect": "Yoga by the Ganges." }
+    },
+    "evening_experiences": {
+      "ganga_aarti": { "name": "Grand Ganga Aarti", "location": "Har Ki Pauri", "time": "6:00-7:00 PM", "duration": "45 minutes", "tips": ["Arrive early","Respect ceremony"] },
+      "market_walk": { "name": "Evening Market Walk", "location": "Main Bazaar", "time": "7:00-9:00 PM", "duration": "2 hours", "what_to_experience": ["Street food","Shopping","Local crafts"] }
+    }
+  },
+
+  "8_14_day_modules": {
+    "day8_rishikesh": { "highlights": ["Ram Jhula","Beatles Ashram","Cafes","Aarti"] },
+    "day9_mussoorie": { "highlights": ["Kempty Falls","Mall Road","Gun Hill","Camel’s Back"] },
+    "ashram_basic": { "programs": ["Aarti","Yoga","Temple round","Reading"] },
+    "ashram_seva": { "programs": ["Seva","Scripture study","Meditation","Community outreach"] },
+    "ashram_intensive": { "programs": ["Sunrise Yoga","Meditation","Philosophy","Kirtan"] },
+    "kankhal_circuit": { "highlights": ["Daksh Mahadev","Maa Anandamayi","Shri Yantra Dham","Local Chaat"] },
+    "shopping_paths": { "areas": ["Main Bazaar","Upper Road","Jassa Ram Road"] }
+  },
+
+  "day_trips": {
+    "rishikesh": { "name": "Rishikesh Day Trip", "distance": "25 km", "duration": "8-10 hours", "cost": "₹1500-3000", "highlights": ["Laxman/Ram Jhula","Beatles Ashram","Cafes","Rafting(seasonal)"], "best_for": "Adventure, youth, culture" },
+    "mussoorie": { "name": "Mussoorie Hill Station", "distance": "85 km", "duration": "12 hours", "cost": "₹3000-5000", "highlights": ["Kempty Falls","Mall Road","Gun Hill","Camel’s Back"], "best_for": "Nature, families, couples" }
+  },
+
+  "haridwar_street_knowledge": {
+    "lanes": [
+      { "name": "Main Bazaar", "focus": "Religious items, snacks", "near": "Har Ki Pauri" },
+      { "name": "Upper Road", "focus": "Pakora, gems & puja items", "near": "River side" },
+      { "name": "Jassa Ram Road", "focus": "Rudraksha & malas", "near": "Har Ki Pauri" }
+    ],
+    "shops": [
+      { "name": "Gita Press Book Shop", "type": "Holy books", "location": "Near Har Ki Pauri" },
+      { "name": "Rudraksha Lane Vendors", "type": "Beads & malas", "location": "Jassa Ram Road" },
+      { "name": "Copper Puja Stores", "type": "Kalash, plates", "location": "Upper Road" }
+    ]
+  }
+}
